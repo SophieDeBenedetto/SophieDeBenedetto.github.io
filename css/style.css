@@ -74,6 +74,11 @@ div ul li a {
 	font-weight: bolder;
 
 }
+
+.content p a {
+	color: #2C4016;
+
+}
 a:link {
 	color: #2C4016;
 	text-decoration: none;
