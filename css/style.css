@@ -1,28 +1,28 @@
 
-/* FONTS */
-
-@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,700);
-
+/*my old stuff */
+/*/* FONTS */
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
 html * {
-	font-family: 'Noticia Text', serif;
-	
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/polygons.png");
+    /*background: opacity: 0.5;*/
+    
     
 }
 
-/* .clearfix {
+ .clearfix {
    content: ".";
    visibility: hidden;
    display: block;
    height: 0;
    clear: both;
 }
-*/
 
-.main {
+
+ .main {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -32,7 +32,10 @@ body {
 .content {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: gba(255, 255, 255, 0.8);
+  line-height: 30px;
+  margin-top: 50px;
+
+	/*background-color: gba(255, 255, 255, 0.8);*/
 }
 
 .content ul {
@@ -45,7 +48,7 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 25%;
-	background-color: rgba(255, 255, 255, .7);
+	/*background-color: rgba(255, 255, 255, .7);*/
 
 }
 
@@ -62,43 +65,46 @@ body {
 	margin-right: auto;
 	list-style-type: none;
 	text-align: center;
+  line-height: 10px
 	padding: 10px;
 	width: 50%;
-	background-color: rgba(255, 255, 255, .7);
+	/*background-color: rgba(255, 255, 255, .7);*/
 
 }
 
 div ul li a {
-	color: #2C4016;
+	color: grey;
 	text-decoration: none;
-	font-weight: bolder;
+	font-weight: regular;
 
 }
 
 .content p a {
-	color: #2C4016;
+	color: grey;
 
 }
 a:link {
-	color: #2C4016;
+	color: grey;
 	text-decoration: none;
-	font-weight: bolder;
+	font-weight: regular;
 }
 
 a:hover {
-	color: #2C4016;
+	color: grey;
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
 h2 {
-	color: #2C4016;
+	color: grey;
 	text-align: center;
 	margin-bottom: 5px;
-
+  font-weight: lighter;
+  font-size: 45px;
 }
 
 .menu {
 	text-align: center;
+  margin-top: 20px;
 }
 
 .menu ul {
@@ -111,9 +117,15 @@ h2 {
 
 .menu li {
 	float: left;
-	padding: 2px 5px;
+	padding: 2px 30px;
+/*  border-right: solid 1px grey;
+*/border-left: solid 1px grey;
 }
 
+.menu #first-nav-item{
+  border-left: none;
+
+}
 
 .header {
 	width: 500px;
@@ -122,6 +134,7 @@ h2 {
 	margin-right: auto;
 	text-align: center;
 	background-color: rgba(255, 255, 255, .7);
+  margin-top: 100px;
 
 	
 }
@@ -130,6 +143,25 @@ figcaption {
 	text-align: center;
 	font-size: .5em;
 }
+
+#projects {
+  height: 300px;
+  overflow-x: hidden; 
+  overflow-y: auto;
+  margin-top: 20px
+  /*overflow: auto;*/
+  /*overflow-y: scroll;*/
+
+}
+/*::-webkit-scrollbar {
+    -webkit-appearance: block;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}*/
 
 
 
