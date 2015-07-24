@@ -180,7 +180,8 @@ figcaption {
   height: 300px;
   overflow-x: hidden; 
   overflow-y: auto;
-  margin-top: 10px
+  margin-top: 10px;
+  font-size: 1.3em;
  
   scrollbar-base-color:#ffeaff
   overflow-y: scroll;
