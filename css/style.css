@@ -11,6 +11,7 @@
 }*/
 html * {
   font-family: 'Josefin Sans', sans-serif;
+  /*font-size: 50px;*/
 }
 
 body {
@@ -38,6 +39,7 @@ body {
     /*background-size:contain;*/
     /*background-position:center;*/
     /*background: opacity: 0.5;*/
+    /*font-size: 18px;*/
     
     
 }
@@ -63,6 +65,7 @@ body {
 	margin-right: auto;
   line-height: 30px;
   margin-top: 50px;
+  font-size: 18px;
 
 	/*background-color: gba(255, 255, 255, 0.8);*/
 }
