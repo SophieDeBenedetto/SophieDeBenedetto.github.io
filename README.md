@@ -1,3 +1,3 @@
-This is my personal site. I am creating it in order to practice HTML/CSS as part of my prep for attending the Flatiron School. 
+Code for my personal site on github pages.  
 
-my email: sophie.debenedetto@gmail.com
+sophie.debenedetto@gmail.com
