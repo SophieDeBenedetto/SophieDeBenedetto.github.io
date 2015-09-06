@@ -109,15 +109,20 @@ div ul li a {
 }
 
 .content p a {
-	color: grey;
+	color: #69CEE4
 
 }
 a:link {
+  /*color: 5FCDF1;*/
 	color: grey;
 	text-decoration: none;
 	font-weight: regular;
 }
 
+.header a:hover {
+  color: grey;
+  text-decoration: none;
+}
 a:hover {
 	color: grey;
 	background-color: rgba(255, 255, 255, 0.8);
@@ -147,8 +152,8 @@ h2 {
 .menu li {
 	float: left;
 	padding: 2px 30px;
-/*  border-right: solid 1px grey;
-*/border-left: solid 1px grey;
+/*  border-right: solid 1px grey;*/
+  border-left: solid 1px grey;
 }
 
 .menu #first-nav-item{
@@ -168,19 +173,16 @@ h2 {
 	
 }
 
-figcaption {
-	text-align: center;
-	font-size: .5em;
-}
 
 #projects {
   height: 300px;
   overflow-x: hidden; 
   overflow-y: auto;
   margin-top: 10px
- 
+  font-size: 5em;
   scrollbar-base-color:#ffeaff
   overflow-y: scroll;
+
 
 }
 
